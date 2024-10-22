@@ -1,0 +1,47 @@
+.teacher-container {
+  background-color: white;
+  text-align: center;
+}
+.teacher {
+  background-color: #dbd8e3;
+  border-radius: 25px;
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  display: block;
+}
+.teacher-info {
+  display: flex;
+  text-align: center;
+}
+.teach-pic {
+  width: 150px;
+  border-radius: 100px;
+}
+.teacher-info h3 {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.stars {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.teacher-container button {
+  background-color: white;
+  color: #2a2438;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  padding: 10px;
+}
+.teacher-container button:hover {
+  background-color: #2a2438;
+  color: white;
+}
+.rates {
+  color: #2a2438;
+}
+.stars {
+  text-decoration-thickness: 1px;
+}
+
