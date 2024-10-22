@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <h1>TeachLang</h1>
+   <div class="main-container">
+    <div class="image-container">
+        <div>
+            <img src="https://images.unsplash.com/photo-1530785602389-07594beb8b73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNtaWxpbmclMjBibGFjayUyMHdvbWFufGVufDB8fDB8fHww"
+        alt="Image" class="image">
+        </div>
+        <div>
+            <button class="teachers-button">Go back to teachers</button>
+        </div>
+        
+    </div>
+
+    <div class="right-container">
+        <div class="form-row">
+            <h2>Book a lesson with Sino</h2>
+            <button class="trial-lesson-btn">Book a trial lesson</button>
+            <form action="/submit" method="POST">
+                <label for="lesson-description">Describe the kind of lesson you'd like to have:</label><br>
+                <textarea id="lesson-description" name="lessonDescription" rows="5" cols="50" 
+                placeholder="Enter details about the lesson you want...">
+            </textarea>
+              </form>
+        </div>
+
+        <div class="student-details">
+
+            <input type="text" id="name" name="name" placeholder="Your Name:" required><br>
+        
+            <input type="email" id="email" name="email" placeholder="Your email:" required><br>
+            
+            <input type="tel" id="phone-number" name="phoneNumber" placeholder="Your phone number:"required><br>
+
+            <button class="book-now-btn" type="submit">Book lesson</button>
+        </div>
+
+    </div>
+    </div>
     
 </body>
 </html>
