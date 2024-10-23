@@ -1,0 +1,63 @@
+:root {
+  --first-color: #dbd8e3;
+  --second-color: #5c5470;
+  --third-color: #352f44;
+  --fourth-color: #2a2438;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.sign-In-form,
+.sign-Up-form {
+  display: none;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: row;
+}
+
+.btns {
+  margin-left: 80vw;
+  display: flex;
+}
+
+.btns a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--third-color);
+  padding: 10px;
+  background-color: var(--first-color);
+  border-radius: 5px;
+}
+
+
+.Username, .Password, .Name, .Surname, .Email {
+  border-radius: 5px;
+  margin: 8px;
+  background-color: var(--first-color);
+}
+.sign-in-btn, .sign-up-btn{
+    width: 50px;
+    border-radius: 5px;
+    color: var(--third-color);
+    margin-left: 70px;
+    
+}
+
+
+
+#signIn:target {
+  display: grid;
+  justify-content: center;
+}
+
+#signUp:target {
+  display: grid;
+  justify-content: center;
+}
