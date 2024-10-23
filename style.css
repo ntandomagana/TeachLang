@@ -18,9 +18,9 @@
   width: 150px;
   border-radius: 100px;
 }
-.teacher-info h3 {
+.teacher-info h2 {
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 19px;
 }
 .stars {
   margin-bottom: 10px;
@@ -41,7 +41,10 @@
 .rates {
   color: #2a2438;
 }
-.stars {
-  text-decoration-thickness: 1px;
+/* .stars {
+  text
+} */
+a{
+  color: black;
+  /* text-decoration: none; */
 }
-
